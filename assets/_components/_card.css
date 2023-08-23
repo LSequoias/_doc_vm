@@ -1,0 +1,17 @@
+.card {
+    width: 80vw;
+    font-family: 'Space Grotesk', sans-serif;
+    color: antiquewhite;
+    background-color: #222;
+}
+.card .paragraph, .card .list {
+    margin: 2rem;
+    width: 70%;
+}
+
+.list {
+    flex-direction: column;
+    box-shadow: 0px 1px 3px #000;
+    padding: 2rem;
+    list-style-type: "~ ";
+}
