@@ -1,3 +1,10 @@
+
+
+@import url(_components/_navbar.css);
+:root {
+    --primary: #2979ff;
+    --secondary: #651fff;
+}
 html, body {
     width: 100vw;
     margin: 0;
@@ -10,7 +17,9 @@ main {
     width: 100%;
     margin: 2rem auto;
 }
-
+.wrap {
+    margin: 5rem auto;
+}
 .card {
     width: 80vw;
     border: 1px solid grey ;
@@ -31,3 +40,4 @@ main {
     text-indent: 1.2rem;
     padding: 1rem;
 }
+
