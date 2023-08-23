@@ -1,6 +1,8 @@
 
 
 @import url(_components/_navbar.css);
+@import url(_components/_card.css);
+
 :root {
     --primary: #2979ff;
     --secondary: #651fff;
@@ -20,10 +22,7 @@ main {
 .wrap {
     margin: 5rem auto;
 }
-.card {
-    width: 80vw;
-    border: 1px solid grey ;
-}
+
 
 .title {
     font-size: 1.8rem;

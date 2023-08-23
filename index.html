@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="note d'un cours, permet de mémoriser et de bosser le web.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
     <title>note</title>
 </head>
@@ -30,8 +33,18 @@
             <article class="card">
                 <h3 id="link1" class="title">Cas d'utilisation d'une Machine Virtuelle</h3>
                 <p class="paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, molestiae!
+                    Les machines virtuelles sont comme des containers fonctionnant indépendamment du sytème principale, les VM
+                    ont leurs propres adresse IP, leurs propres adresse physique générée selon la virtualisation, un firewall indépendant.
+                    Pour fonctionner une VM crée une partition d'un système d'explotation sur le disque de la machine physique, en gros 15Go sont allouer 
+                    à une distribution sur le disque local pour faire fonctionner une instance. Les distributions peuvent être sous format ISO.
                 </p>
+                <ul class="list">
+                    <li>D'isolée un environement sur la machine</li>
+                    <li>D'installée un OS de façon isolée de la machine physique</li>
+                    <li>De pouvoir communiquée avec plusieurs VM pour des crash test par exemple</li>
+                    <li>Migrée une VM vers la machine physique</li>
+                    <li>Testée la compatibilité entre les différents OS pour une app.</li>
+                </ul>
             </article>
             
         </section>
